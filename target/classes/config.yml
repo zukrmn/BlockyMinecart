@@ -1,0 +1,10 @@
+# BlockyMinecart Configuration
+
+# Auto-save interval in minutes
+auto-save-interval: 5
+
+# Inventory size (9, 18, 27, 36, 45, 54)
+inventory-size: 27
+
+# Inventory title
+inventory-title: "Carga"

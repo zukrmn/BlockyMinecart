@@ -1,0 +1,6 @@
+name: BlockyMinecart
+version: 1.0.0
+main: com.blockycraft.blockyminecart.BlockyMinecart
+author: Bernardo Zukerman
+description: Adiciona inventário ao carrinho
+api-version: 1.0
