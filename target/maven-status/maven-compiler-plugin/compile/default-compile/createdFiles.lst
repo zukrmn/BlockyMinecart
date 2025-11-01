@@ -1,8 +1,12 @@
-com/blockycraft/blockyminecart/BlockyMinecart$1.class
 com/blockycraft/blockyminecart/storage/StorageManager$MinecartInventory.class
 com/blockycraft/blockyminecart/storage/StorageManager.class
+com/blockycraft/blockyminecart/BlockyMinecart$3.class
+com/blockycraft/blockyminecart/listeners/MinecartBreakListener.class
+com/blockycraft/blockyminecart/BlockyMinecart$2.class
+com/blockycraft/blockyminecart/util/MinecartRegistry$MinecartInfo.class
+com/blockycraft/blockyminecart/BlockyMinecart$1.class
 com/blockycraft/blockyminecart/BlockyMinecart.class
 com/blockycraft/blockyminecart/listeners/MinecartInteractListener.class
 com/blockycraft/blockyminecart/util/MinecartIdentifier.class
-com/blockycraft/blockyminecart/storage/DataHandler.class
-com/blockycraft/blockyminecart/listeners/MinecartBreakListener.class
+com/blockycraft/blockyminecart/storage/BlockyMinecartDatabase.class
+com/blockycraft/blockyminecart/util/MinecartRegistry.class
