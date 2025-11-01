@@ -19,6 +19,19 @@ BlockyMinecart é um plugin para o servidor BlockyCRAFT que adiciona inventário
 3. Armazene os itens desejados.
 4. Se o minecart for destruído, todos os itens armazenados são automaticamente largados no solo.
 
+## Persistência com SQLite
+
+A implementação do BlockyMinecart utiliza um banco **SQLite** para garantir a persistência dos inventários dos minecarts de forma robusta e confiável, mesmo após reinícios ou crashes do servidor.
+
+- Cada minecart recebe um **identificador único persistente** durante sua existência no mundo.
+- Ao abrir o inventário ou realizar qualquer operação, o conteúdo é salvo no banco `blockyminecart.db`, localizado na pasta de dados do plugin.
+- O sistema realiza backups frequentes e automáticos, além de salvar os dados imediatamente quando necessário (ex: ao destruir o minecart).
+- A estrutura do banco armazena:
+  - Os identificadores dos minecarts e suas posições,
+  - O conteúdo de cada slot do inventário, incluindo tipo de item, quantidade e dano.
+- Na reinicialização do servidor, o plugin associa os minecarts do mundo aos seus identificadores persistentes e restaura automaticamente os inventários do banco, permitindo que os itens permaneçam disponíveis para os jogadores.
+
+
 ## Configuração
 
 O arquivo `config.yml` permite definir:
